@@ -1,0 +1,225 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+
+}
+.main {
+  flex: 1;
+  position:relative;
+}
+
+h1 {
+  font-size: 5rem;
+  color:white;
+}
+
+footer {
+  text-align: right;
+  color: white;
+  font-size: smaller;
+}
+
+.tile-image{
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.creative {
+  color: red;
+}
+
+.card {
+  width: 45%;
+}
+
+p,h2{
+  color: white;
+}
+
+.logos{
+  display: inline-flex;
+  margin-right: auto;
+  align-items: flex-end;
+}
+
+.logo{
+  height: 4rem;
+  display:inline-flex;
+  margin:0;
+  position:relative;
+
+}
+
+
+#Vid{
+  position: fixed;       
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;      
+  z-index: -2;           
+  object-fit: cover;     
+}
+
+.nav-buttons{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.cards{
+  display:flex;
+  justify-content: space-around;
+  gap:50px;
+}
+
+.nav-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-family: 'Bebas Neue', sans-serif;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  background: white;
+  color: midnightblue;
+}
+
+.Project{
+  color:red;
+}
+
+.contact-container{
+  display:flex;
+  gap:70px;
+  justify-content: center;
+}
+
+.information-box{
+  border: 2px solid white;
+  height: 450px;
+  width: 300px;
+  border-radius: 40px;
+  padding:40px;
+}
+
+.Contact-box{
+  border: 2px solid white;
+  height: 450px;
+  width: 300px;
+  border-radius: 40px;
+  padding:40px;
+}
+
+label{
+  color:white;
+}
+
+#name{
+  background: transparent;
+  color:white;
+  Border: 2px solid white;
+  border-radius: 40px;
+  height: 40px;
+  padding:5px;
+}
+
+#email{
+  background: transparent;
+  color:white;
+  Border: 2px solid white;
+  border-radius: 40px;
+  height: 40px;
+  padding:5px;
+  width: 300px;
+}
+
+#project-detail{
+  background-color: transparent;
+  height: 100px;
+  width: 300px;
+  color:white;
+  border: 2px solid white;
+}
+
+.contact-container button{
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-family: 'Bebas Neue', sans-serif;
+  transition: 0.3s;
+}
+
+.contact-container button:hover{
+  background-color: white;
+  color:midnightblue;
+}
+
+.P-word{
+  font-weight: bold;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a{
+  color:white;
+}
+
+.project-heading{
+  display:flex;
+  justify-content: center;
+}
+footer{
+  display: flex;
+  align-items: flex-end;
+  max-height: fit-content;
+  justify-content: flex-end;
+}
+
+.about-us{
+  text-align: center;
+  border: 2px solid white;
+}
+
+.about-p{
+  text-align: center;
+  text-transform:capitalize;
+  font-size: 15px ;
+  line-height: 2.5rem;
+}
+
+.hilight{
+  background-color:red;
+  color:white;
+  font-weight: bold;
+}
+
+.us{
+  color:red;
+}
+
+
+
+
+
+
+
+
+
+
